@@ -2,7 +2,9 @@ name: Kalkulator CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - main
+      - develop #Branch baru
   pull_request:
     branches: [ main ]
 
